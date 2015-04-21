@@ -18,7 +18,7 @@ module.exports = function(context) {
 
     if (!args) args = []
 
-    var sshArgs = ['-tt'] // force tty allocation
+    var sshArgs = []
 
     if (!context.args.strictHostKeyChecking && !context.env.STRICT_HOST_KEY_CHECKING)
       sshArgs.push('-o', 'StrictHostKeyChecking=no')
