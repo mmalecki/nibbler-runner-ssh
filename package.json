@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/mmalecki/nibbler-runner-ssh",
   "dependencies": {
-    "shell-quote": "~1.4.3"
+    "ssh-spawner": "~2.1.0"
   }
 }
